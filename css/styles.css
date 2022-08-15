@@ -191,7 +191,7 @@ body {
     clip-path: inset(50%);
     margin: -1px;
 }
-
+/*
 .antenna::before {
     margin-bottom: 30px;
     content: "";
@@ -238,6 +238,24 @@ body {
     background-image: url(../images/astronaut.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
+*/
+.peculiarity-img {
+    display: flex;
+
+    margin-bottom: 30px;
+    max-width: 270px;
+    height: 120px;
+    border-radius: 4px;
+
+    background-color: var(--secondary-background-color);
+}
+
+.p-icon {
+    display: block;
+    width: 75px;
+    height: 75px;
+    margin: auto;
 }
 
 .peculiarity-title {
